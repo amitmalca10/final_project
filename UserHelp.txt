@@ -1,0 +1,18 @@
+installation:
+To install all necessary dependencies for the backend:
+1.open the project in any Python-supported platform
+2.run the following command in the terminal:
+pip install -r requirements.txt
+
+run the project:
+**super important**
+Do Not run the backend project before you run the front!
+*****
+Once the frontend is running
+navigate to the back folder and run the Python file back.py:
+python back.py
+
+stop running:
+Stop it using the standard method.
+
+
