@@ -169,7 +169,7 @@ async def upload_csv(file: UploadFile):
                     'messege': 'no'
                 })  # send the data to the front
             for feature in row:
-                if (feature!=0 and feature!=1):
+                if (int(feature)!=0 and int(feature)!=1):
                     return JSONResponse(content={
                         'messege': 'no_binar'
                     })  # send the data to the front
